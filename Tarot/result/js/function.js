@@ -593,7 +593,7 @@ function displayRandomContent() {
   randomImage.src = tarotcards1[randomIndex].image;
   randomImageTop.src = tarotcards1[randomIndex].image;
   randomCopy.innerHTML = `<p>${randomContent}</p>`;
-  localStorage.setItem("card-1-id", cardId);
+  localStorage.setItem("card-1-id", cardId.toString());
 }
 
 function submitThePage(event) {
