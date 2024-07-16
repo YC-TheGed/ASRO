@@ -1,0 +1,188 @@
+.hidden {
+  display: none;
+}
+
+@keyframes fadeToTransparent {
+  0% {
+    color: black;
+  }
+  25% {
+    color: gray;
+  }
+  75% {
+    color: rgba(128, 128, 128, 0.475);
+  }
+  100% {
+    color: transparent;
+  }
+}
+
+.fade-color-out {
+  animation: fadeToTransparent 1s ease-in-out forwards; /* 1s duration, ease-in-out timing */
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f5ef !important;
+}
+
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(20px); /* Start slightly lower */
+  transition: opacity 1s ease-in, transform 1.2s ease-in;
+}
+
+.fade-in-up.show {
+  opacity: 1;
+  transform: translateY(0); /* End at the original position */
+}
+
+.card-section {
+  transition: transform 0.5s;
+}
+
+.progress {
+  transition: opacity 0.5s ease-in-out;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #e4c465;
+  width: 0%;
+  transition: width 2s; /* Adjust the duration of the animation as needed */
+}
+
+#card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#instruction-container {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 50px;
+  transition: transform 1s ease-in-out;
+}
+
+.selected {
+  transform: translateY(-17px);
+  transition: transform 0.3s ease;
+}
+
+.card-section {
+  margin-top: 45px;
+  position: relative;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-section {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.card {
+  position: relative;
+  max-width: 200px; /* Set the maximum width of the cards */
+  word-break: break-word; /* Ensure the text wraps to a new line if it exceeds the width */
+  /*margin-left: -20px; /* Adjust this value to control the overlap */
+}
+
+/*Tarot card hover effect*/
+.card-img-top {
+  transition: transform 0.5s; /* Add a transition for smooth animation */
+  cursor: pointer;
+}
+/*Tarot card hover effect*/
+.card-img-top:hover {
+  transform: translateY(-17px); /* Shift the image up by 5 pixels */
+}
+
+#button {
+  background-color: #0a2722;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 40px;
+  color: cornsilk;
+  margin-top: 50px;
+  box-shadow: 0 3px 3px 1px gray;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.btn.show {
+  opacity: 1; /* Set the desired opacity for the visible button */
+}
+
+.show1 {
+  transition: opacity 1s ease-in, transform 1s ease-in;
+}
+
+.headline1 {
+  max-width: 530px;
+  line-height: 50px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0 auto 20px;
+  margin-top: 50px;
+}
+
+.headline2 {
+  width: 450px;
+  line-height: 30px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.processing-container {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.accurate-reading {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: auto;
+  font-style: italic;
+  font-weight: 500;
+  text-align: center;
+}
+
+.col-footerlinks {
+  font-size: 12px;
+  font-weight: 700 !important;
+}
+
+.footer {
+  margin-bottom: 15px;
+  margin-top: 80px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.stacked {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
