@@ -134,7 +134,7 @@ document.addEventListener("DOMContentLoaded", function () {
     localStorage.setItem("selected-date", selectedDate.toString());
     localStorage.setItem("selected-month", selectedMonth);
     console.log("Attempting to navigate to /decade");
-    window.location.href = "/decade";
+    window.location.href = "/Reading/decade";
     // Simulating router push
     // router.push("/decade");
   }
