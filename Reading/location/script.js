@@ -17,6 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Simulate router push to /name
     console.log("Attempting to navigate to /name");
-    window.location.href = "/name"; // Replace with your next page route
+    window.location.href = "/Reading/name"; // Replace with your next page route
   });
 });
