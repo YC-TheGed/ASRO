@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>(1) Divine Astrology Reading</title>
+    <link rel="icon" type="image/x-icon" href="/img/dar-fav.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div id="headline">
+        <h1>Select Your Birth Time</h1>
+      </div>
+      <div id="sub-head">
+        <p>
+          It doesn't have to be extremely accurate if you cannot remember it
+          accurately, but the closer to the exact time, the better. Because it
+          will help us to make your reading more accurate!
+        </p>
+      </div>
+      <form id="birthTimeForm">
+        <div class="row">
+          <div class="col">
+            <label id="title" for="hour">Hour:</label>
+            <select id="hour" name="hour" required>
+              <option value="">Select</option>
+            </select>
+          </div>
+          <div class="col">
+            <label id="title" for="minute">Minute:</label>
+            <select id="minute" name="minute" required>
+              <option value="">Select</option>
+            </select>
+          </div>
+          <div class="col">
+            <label id="title" for="ampm">Period:</label>
+            <select id="ampm" name="ampm" required>
+              <option value="">Select</option>
+              <option value="AM">AM</option>
+              <option value="PM">PM</option>
+            </select>
+          </div>
+        </div>
+        <div>
+          <button type="submit">
+            <div>Continue &gt;&gt;</div>
+          </button>
+        </div>
+      </form>
+      <footer>
+        <p dir="ltr">
+          <span>
+            Copyright 2024 © Divine Astrology Reading - All Rights Reserved
+          </span>
+        </p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
