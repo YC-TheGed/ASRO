@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
       renderYears();
     } else {
       // Handle the case where no decade was selected
-      window.location.href = "/decade";
+      window.location.href = "/Reading/decade";
     }
   }
 
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Navigate to next page
     setTimeout(() => {
-      window.location.href = "/birth-time";
+      window.location.href = "/Reading/birth-time";
     }, 300);
   }
 
