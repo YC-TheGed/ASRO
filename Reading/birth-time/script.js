@@ -14,11 +14,11 @@ document.addEventListener("DOMContentLoaded", function () {
   reloadCSS();
 
   function yesSelected() {
-    window.location.href = "/ebt";
+    window.location.href = "/Reading/ebt";
   }
 
   function noSelected() {
-    window.location.href = "/location";
+    window.location.href = "/Reading/location";
   }
 
   document.getElementById("yesButton").addEventListener("click", yesSelected);
