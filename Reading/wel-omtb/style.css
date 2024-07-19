@@ -299,3 +299,22 @@ button {
   color: #0d9901;
   line-height: 50px;
 }
+
+#bottom {
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 10px;
+  line-height: 18px;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bottom p {
+  font-size: 15px;
+}
