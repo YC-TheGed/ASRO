@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (hour && minute && ampm) {
       const selectedTime = `${hour}:${minute}:${ampm}`;
       localStorage.setItem("selected-time", selectedTime);
-      window.location.href = "/location";
+      window.location.href = "/Reading/location";
     } else {
       alert("Please select all time fields");
     }
