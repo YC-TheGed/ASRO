@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 50); // Set a reasonable interval duration
 
     finalButton.addEventListener("click", () => {
-      window.location.href = "/answer"; // Replace with your next page route
+      window.location.href = "/Reading/answer"; // Replace with your next page route
     });
   });
 });
